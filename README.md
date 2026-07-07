@@ -1,28 +1,16 @@
 # Mizuki Plugin Homo QSO
 
-Mizuki Plugin Homo QSO is an internal QSO-record helper plugin for the Mizuki Bot ecosystem.
+这是开发组内部维护的轻量辅助插件。
 
-## Status
+## 当前状态
 
-- Scope: development-team maintenance.
-- Usage: intended for the existing bot environment.
-- Documentation: this README records scope and maintenance notes only.
-- License: not selected yet.
+- 维护范围：开发组内部维护。
+- 使用范围：现有机器人环境。
+- 文档状态：只保留简要说明。
+- 许可证状态：暂未选择。
 
-## Scope
+## 维护说明
 
-This plugin is a lightweight helper for recording and reviewing QSO-related information in the current bot workflow. It is not intended to be a complete professional logging system.
-
-Typical responsibilities include:
-
-- Adding and reviewing simple QSO records.
-- Keeping frequently used information organized.
-- Providing lightweight query and export helpers.
-- Keeping record formats stable enough for later migration or cleanup.
-
-## Maintenance notes
-
-- Keep stored data formats stable.
-- Avoid mixing temporary display text with persistent record fields.
-- Keep exported data readable and easy to migrate.
-- Update documentation when visible command names or record fields change.
+- 保持功能边界清晰。
+- 保持说明简短稳定。
+- 可见行为变化时同步更新文档。
