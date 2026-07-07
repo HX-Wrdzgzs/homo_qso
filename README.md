@@ -1,48 +1,28 @@
-# Mizuki-plugin-homo-qso
+# Mizuki Plugin Homo QSO
 
-Mizuki Bot 的通联记录辅助插件。
+Mizuki Plugin Homo QSO is an internal QSO-record helper plugin for the Mizuki Bot ecosystem.
 
-本仓库用于维护基于 NoneBot2 的 QSO 记录相关功能。它面向机器人群聊场景，提供记录整理、信息查询和日志维护等轻量能力。
+## Status
 
-## 项目定位
+- Scope: development-team maintenance.
+- Usage: intended for the existing bot environment.
+- Documentation: this README records scope and maintenance notes only.
+- License: not selected yet.
 
-`Mizuki-plugin-homo-qso` 是 Mizuki Bot 生态中的功能插件。它更适合作为群聊中的轻量辅助工具，而不是完整的专业日志系统。
+## Scope
 
-可能包含的内容包括：
+This plugin is a lightweight helper for recording and reviewing QSO-related information in the current bot workflow. It is not intended to be a complete professional logging system.
 
-- 通联记录新增与查询
-- 基础信息登记
-- 常用信息查询
-- 群内记录整理
-- 简单的数据导出或同步入口
+Typical responsibilities include:
 
-具体能力请以代码实现为准。
+- Adding and reviewing simple QSO records.
+- Keeping frequently used information organized.
+- Providing lightweight query and export helpers.
+- Keeping record formats stable enough for later migration or cleanup.
 
-## 使用场景
+## Maintenance notes
 
-该插件适合用于：
-
-- 在群聊中快速记录一次通联
-- 查询历史记录
-- 整理常用信息
-- 在 Mizuki Bot 中集中维护相关小工具
-
-## 当前状态
-
-该仓库此前 README 较简略。后续建议继续补充：
-
-- 插件加载方式
-- 依赖项说明
-- 配置项示例
-- 指令列表
-- 数据存储格式
-- 导出说明
-- 常见问题
-
-## 维护建议
-
-新增功能时建议优先保证数据格式稳定，避免后续导出、迁移或同步时出现兼容问题。涉及公开群聊展示的内容，应保持必要的克制和可读性。
-
-## License
-
-Not selected yet.
+- Keep stored data formats stable.
+- Avoid mixing temporary display text with persistent record fields.
+- Keep exported data readable and easy to migrate.
+- Update documentation when visible command names or record fields change.
